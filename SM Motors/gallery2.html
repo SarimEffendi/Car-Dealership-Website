@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" href="main.css">
+<style>
+    .container{
+    position: absolute;
+    top:10%;
+    
+    }
+
+    h1{
+    margin-left: 44%;
+    }
+    img{
+        height:200px;
+    }
+    .gallery{
+
+        margin-top: 50px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        
+            <div class="logo">
+
+                <a href="index.html"><img src="imgs/logo.png" alt="Logo" width="120px;" height="120px;"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">HOME <i class="fas fa-home"></i></a>
+                </li>
+
+                <li>
+                    <a href="gallery.html">GALLERY <i class="fas fa-image"></i></i></a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">ABOUT US <i class="far fa-question-circle"></i></a>
+                </li>
+                <li>
+                    <a href="contactUS.html">CONTACT US <i class="fas fa-mobile-alt"></i></a>
+                </li>
+
+            </ul>
+            <!-- Search Feild Button -->
+            <div class="Search_field">
+
+
+                <a href="#OpenSearchBox">
+                    <Button name="Search_button" type="submit"> <i class="fas fa-search"></i></Button>
+                </a>
+
+
+            </div>
+
+        
+
+
+
+
+
+
+            <!-- Search Modal -->
+            <div class="search_modal" id="OpenSearchBox">
+                <div class="search_modal_container">
+
+                    <form action="">
+                        <input type="seacrh" placeholder="Search Here">
+                        <button><i class="fas fa-search"></i></button>
+                        <a href="#modal_close">Close</a>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+    
+    <div class="container">
+        
+    <h1 style="color: black;">Our gallery</h1>
+        <div class="gallery">
+            <a href="images/21.jpg" data-lightbox="mygallery" ><img src="images/21.jpg" alt=""></a>
+            <a href="images/22.jpg" data-lightbox="mygallery"  ><img src="images/22.jpg" alt=""></a>
+            <a href="images/23.jpg" data-lightbox="mygallery"><img src="images/23.jpg" alt=""></a>
+            <a href="images/24.jpg" data-lightbox="mygallery"><img src="images/24.jpg" alt=""></a>
+            <a href="images/25.jpg" data-lightbox="mygallery"><img src="images/25.jpg" alt=""></a>
+        </div>
+        <div class="gallery">    
+            <a href="images/26.jpg" data-lightbox="mygallery"><img src="images/26.jpg" alt=""></a>
+            <a href="images/27.jpg" data-lightbox="mygallery"><img src="images/27.jpg" alt=""></a>
+            <a href="images/28.jpg" data-lightbox="mygallery"><img src="images/28.jpg" alt=""></a>
+            <a href="images/29.jpg" data-lightbox="mygallery"><img src="images/29.jpg" alt=""></a>
+            <a href="images/30.jpg" data-lightbox="mygallery"><img src="images/30.jpg" alt=""></a>
+        </div>
+        <div class="gallery">    
+            <a href="images/31.jpg" data-lightbox="mygallery"><img src="images/31.jpg" alt=""></a>
+            <a href="images/32.jpg" data-lightbox="mygallery"><img src="images/32.jpg" alt=""></a>
+            <a href="images/33.jpg" data-lightbox="mygallery"><img src="images/33.jpg" alt=""></a>
+            <a href="images/34.jpg" data-lightbox="mygallery"><img src="images/34.jpg" alt=""></a>
+            <a href="images/35.jpg" data-lightbox="mygallery"><img src="images/35.jpg" alt=""></a>
+
+        </div>
+        <div class="gallery">    
+            <a href="images/36.jpg" data-lightbox="mygallery"><img src="images/36.jpg" alt=""></a>
+            <a href="images/37.jpg" data-lightbox="mygallery"><img src="images/37.jpg" alt=""></a>
+            <a href="images/5.jpeg" data-lightbox="mygallery"><img src="images/5.jpeg" alt=""></a>
+            <a href="images/7.jpg" data-lightbox="mygallery"><img src="images/7.jpg" alt=""></a>
+            <a href="images/9.jpg" data-lightbox="mygallery"><img src="images/9.jpg" alt=""></a>
+
+        </div>
+        <div class="pagination">
+            <a href="gallery.html">&laquo;</a>
+            <a href="gallery.html">1</a>
+            <a href="gallery2.html" class="active">2</a>
+          </div>
+          <footer>
+            <p id="fedback"><a href="feedback.html">FeedBack</a><br><a href="contactUS.html">Contact us</a><br><a href="aboutUs.html">About Us</a></p>
+            <p id="socila_media"><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter-square"></i></p>
+            <p>SM Motors, All rights Reserved 2021 &copy;</p>
+            Website Design By: Sarim Effendi 
+        </footer> 
+    </div>
+</body>
+</html>
